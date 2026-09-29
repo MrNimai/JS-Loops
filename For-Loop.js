@@ -17,10 +17,18 @@ for (let num of number) {
 console.log("Total Sum:", sum);
 
 
+let numbersa = [56, 65, 65, 6, 565, 65, 65, 534, 63, 6, 346, 345, 6, 46];
+
+for (let num of numbersa) {
+  if (num > 50) {
+    console.log(num);
+  }
+}
+
 let numbers = [56, 65, 65, 6, 565, 65, 65, 534, 63, 6, 346, 345, 6, 46];
 
 for (let num of numbers) {
-  if (num > 50) {
+  if (num % 2 === 0) {
     console.log(num);
   }
 }
