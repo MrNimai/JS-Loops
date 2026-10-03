@@ -1,5 +1,6 @@
-let num = 0
-while (num < 5) {
-    console.log(num)
-    num++
+let sum = 0;
+let i = 1;
+while (sum < 100 ) {
+    sum += i;
+    console.log(sum);
 }
